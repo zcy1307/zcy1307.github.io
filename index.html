@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link href="css/stylesheet.css" rel="stylesheet">
+	<link rel = "Shortcut Icon" href="icon.ico">
+	<link rel = "Bookmark" href="icon.ico">
+	<link rel = "icon" href="icon.ico">
+	<title>迷妹的日常=￣ω￣=</title>
+	<script type="text/javascript">
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+var openTip = oOpenTip || "";
+var shutTip = oShutTip || "";
+if(targetObj.style.display!="none"){
+   if(shutAble) return;
+   targetObj.style.display="none";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = shutTip; 
+   }
+} else {
+   targetObj.style.display="block";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = openTip; 
+   }
+}
+}
+</script>
+</head>
+<body>
+	<div class="cover">
+		<span class="profile"></span>
+		<p class="bio">
+			软院辣鸡_(:зゝ∠)_
+			<br>喜欢音乐的追星汪~</p>
+		<audio class="bgm" controls="controls" height="100" width="50">
+			<source src="因你而在.mp3" type="audio/mp3" />
+		</audio>
+	</div>
+	<div class="blog-masthead">
+		<div class="container">
+			<nav class="blog-nav">
+				<a class="blog-nav-item active" href="index.html">主页</a>
+				<a class="blog-nav-item" href="#part1">简介</a>
+				<a class="blog-nav-item" href="#part2">课程展示</a>
+				<a class="blog-nav-item" href="#part3">个人日志</a>
+			</nav>
+		</div>
+	</div>
+	<div class="title" id="part1" style="padding :10px;">个人简介</div>
+	<div class="content1">
+		<div class="info" style="line-height:40px">
+			<p>
+				大名：赵纯艺 ♀
+				<br>
+				来自：内蒙赤峰
+				<br>
+				爱好：睡觉，音乐，运动，林俊杰&李健 o(*////▽////*)o
+				<br>
+				联系方式：zhao_cy14@sina.com
+				<br>
+				github:<a class="link" href="https://github.com/zcy1307">主页~</a>
+				</p>
+		</div>
+
+		<div class="title" id="part2" style="padding :10px;">课程展示</div>
+		<div class="content2">
+			<a class="link" href="http://www.w3school.com.cn/">第一次作业✧(≖ ◡ ≖✿)</a>
+		</div>
+
+		<div class="title" id="part3" style="padding :10px;">个人日志</div>
+		<div class="content3">
+			<ul>
+				<li>
+					<span style="color:grey; font-size: 15px;">2016-07-01</span>
+					<p>
+						<a href="###" onclick="openShutManager(this,'box')" style="color: #006689; font-size: 20px;">初学web前端体会</a>
+					</p>
+					<p id="box" style="display:none">
+						这个小学期比以往上的专业课和小学期的课更好玩些，不再只是枯燥的写代码，作业很有意思~ 渐渐发现相比天天钻研算法来说，我还是比较喜欢这种有图形界面的编程，可能对大多女生来讲都是如此吧。两年的专业课学习让我觉得这个专业有些乏味，但接触了前端之后我又找回了刚开始的那种新鲜感和热情，希望我能把这门课学好，加油！
+					</p>
+				</li>
+
+			</ul>
+		</div>
+		<div class="title" id="part4" style="padding :10px;">迷妹日常</div>
+		<div class="content4"  style="padding: 10px;">
+			<video width="100%" height="100%" controls data-setup="{}">
+				<source src="JJ.mp4" type="video/mp4"></object>
+		</video>
+	</div>
+	<div class="blog-footer">
+		<p>by zcy1307</p>
+	</div>
+
+	<a href="" class="btt">top</a>
+
+</body>
+</html>
